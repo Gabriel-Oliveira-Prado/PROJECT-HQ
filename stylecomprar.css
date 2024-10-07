@@ -409,3 +409,29 @@ input.input__search {
         z-index: 15; 
     }
 }
+
+/* config-gear-button */
+.user-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.gear-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    cursor: pointer;
+    font-size: 30px;
+    color: #000000; 
+}
+
+.input__container.active {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .gear-icon {
+        font-size: 30px; 
+    }
+}

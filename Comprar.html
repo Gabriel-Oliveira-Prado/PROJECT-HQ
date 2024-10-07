@@ -89,10 +89,18 @@
     />
 </div>
 
+<div class="gear-icon">
+    <i class="fas fa-cog" id="gear-icon"></i>
+</div>
+
 <script>
     document.getElementById('user-icon').addEventListener('click', function() {
         const searchContainer = document.getElementById('search-container');
         searchContainer.classList.toggle('active');
+    });
+
+    document.getElementById('gear-icon').addEventListener('click', function() {
+        window.location.href = "config.html";
     });
 </script>
     </header>
